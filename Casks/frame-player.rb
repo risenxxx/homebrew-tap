@@ -1,6 +1,6 @@
 cask "frame-player" do
-  version "1.21.0"
-  sha256 "e76738fb2f820e2433e7eb602feb547a2ec26b59e74d3d4e9850554786e3bb71"
+  version "1.22.0"
+  sha256 "75d8067ec5bc598b1f61e472db60e90eca4fe705492eb42cc0d2f4ce2f8b6135"
 
   url "https://github.com/risenxxx/frame-player/releases/download/v#{version}/FramePlayer_#{version}_aarch64.dmg",
       verified: "github.com/risenxxx/frame-player/"
