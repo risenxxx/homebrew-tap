@@ -2,8 +2,7 @@ cask "frame-player" do
   version "1.41.0"
   sha256 "fc37215fea34613ea1a08525995260feb630cd19f463c48e088bef075c1cb57b"
 
-  url "https://github.com/risenxxx/frame-player/releases/download/v#{version}/FramePlayer_#{version}_aarch64.dmg",
-      verified: "github.com/risenxxx/frame-player/"
+  url "https://github.com/risenxxx/frame-player/releases/download/v#{version}/FramePlayer_#{version}_aarch64.dmg"
   name "Frame Player"
   desc "Video player built on libmpv: files, links and live torrent streaming"
   homepage "https://github.com/risenxxx/frame-player"
@@ -15,7 +14,7 @@ cask "frame-player" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
+  depends_on :macos
 
   app "Frame Player.app"
 
